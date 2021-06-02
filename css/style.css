@@ -1,0 +1,23 @@
+.titulo {
+    margin-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+div,
+button {
+    margin: 10px;
+}
+
+input#cNome,
+#cMail,
+#cTel,
+#cDtNasc {
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}

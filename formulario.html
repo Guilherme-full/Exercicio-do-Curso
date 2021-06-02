@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="titulo">
+        FORMULARIO
+    </h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="cNome" required>
+            </div>
+
+            <div>
+                <label for="cmail">E-mail:</label>
+                <input type="mail" name="cmail" id="cMail" placeholder="email@dominio.com.br">
+            </div>
+
+            <div>
+                <label for="ctel">Telefone:</label>
+                <input type="phone" name="ctel" id="cTel" pattern="
+                [0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="0DD-XXXX-XXXX">
+            </div>
+
+            <div>
+                <input type="radio" name="csexo" id="csexo" value="masculino">
+                <label for="csexo">Masculino</label>
+                <input type="radio" name="csexo" id="csexo" value="masculino">
+                <label for="csexo">Feminino</label>
+                <input type="radio" name="csexo" id="csexo" value="masculino">
+                <label for="csexo">Outros</label>
+            </div>
+
+            <div>
+                <label for="cdtnasc">Data de nascimento:</label>
+                <input type="date" name="cdtnasc" id="cDtNasc">
+            </div>
+
+            <div>
+                <textarea name="cobs" id="cObs" cols="30" rows="5" placeholder="Considerações"></textarea>
+            </div>
+            <div>
+                <label for="cdocente">Docente</label>
+                <select name="cdocente" id="cDocente">
+                    <option value="opt1">Paulo</option>
+                    <option value="opt2">Maria</option>
+                    <option value="opt3">Frabicia</option>
+                    <option value="opt4">Davi</option>
+                    <option value="opt5">Erika</option>
+                </select>
+            </div>
+            <div>
+                <label for="cqtd">Quantidade:</label>
+                <input type="number" name="ctqd" id="cQtd" min="1" max="20">
+            </div>
+            <div>
+                <label for="carq">Arquivos</label>
+                <input type="file" accept=".jpg">
+            </div>
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
