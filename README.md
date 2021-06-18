@@ -13,7 +13,7 @@ gh repo clone Guilherme-full/Exercicio-do-Curso
 
 ## Visualizar Projeto
 
-## *[Formulario](https://guilherme-full.github.io/Projeto-PetShop/pagina.html)
+## *[Formulario](https://guilherme-full.github.io/Exercicio-do-Curso/formulario.html)
 
 
 
