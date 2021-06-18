@@ -2,7 +2,7 @@
 
 ## Download do Projeto
 ```
-gh repo clone Guilherme-full/Projeto-PetShop
+gh repo clone Guilherme-full/Exercicio-do-Curso
 ```
 
 |          | Linux | macOS | Windows |
