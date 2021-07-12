@@ -1,8 +1,8 @@
 # Formulário (Guilherme Xavier Souza)
 
-## Download do Projeto
+## Clonar Repositório
 ```
-gh repo clone Guilherme-full/Exercicio-do-Curso
+git clone https://github.com/Guilherme-full/Exercicio-do-Curso.git
 ```
 
 |          | Linux | macOS | Windows |
